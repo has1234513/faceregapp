@@ -1,7 +1,1 @@
-﻿# faceregapp
- 
- # Clone this repo
- 
- # Run npm install
- 
- # Run npm start
+https://has1234513.github.io/faceregapp/
