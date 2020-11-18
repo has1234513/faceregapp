@@ -74,7 +74,7 @@ loadUser = (data) =>{
 i
   onButtonSubmit = () => {
     this.setState({imageUrl: this.state.input})
-      fetch('https://fast-fortress-32801.herokuapp.com//imageurl', {
+      fetch('https://fast-fortress-32801.herokuapp.com/imageurl', {
         method: 'post',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({
@@ -84,7 +84,7 @@ i
       .then(response => response.json())
       .then(response => {
           if (response) {
-            fetch('https://fast-fortress-32801.herokuapp.com//image', {
+            fetch('https://fast-fortress-32801.herokuapp.com/image', {
               method: 'put',
               headers: {'Content-Type': 'application/json'},
               body: JSON.stringify({
